@@ -1,0 +1,16 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Test page</title>
+
+    <link rel="stylesheet" th:href="@{/static/css/index.css}"/>
+    <link rel="stylesheet" th:href="@{/static/static/index.css}"/>
+</head>
+<body>
+<p class="hello">Text page</p>
+<p class="hello2">Text page 2</p>
+<button th:onclick="hello()">hello</button>
+<script th:src="@{/static/js/index.js}"></script>
+</body>
+</html>
