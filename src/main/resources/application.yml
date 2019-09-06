@@ -3,4 +3,3 @@ spring.resources:
   add-mappings: false # Close the default mapping to '/'
   chain.strategy.content:
     enabled: true
-    paths: /static/**
